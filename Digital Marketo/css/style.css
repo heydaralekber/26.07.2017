@@ -25,38 +25,37 @@ header ul.header-right a {
 }
 
 header ul.header-right a,i span {
-    color: #606060;
-    font-family: 'Bellefair', serif;
-    line-height: normal;
-    border-bottom: none;
+  color: #606060;
+  font-family: 'Bellefair', serif;
+  line-height: normal;
+  border-bottom: none;
 
 }
 
 #custom-search-input{
-    padding: 3px;
-    background-color: #f5f6f7;
-    
+  padding: 3px;
+  background-color: #f5f6f7;
 }
 
 #custom-search-input input{
-    border: 0;
-    box-shadow: none;
-    background-color: #f5f6f7;
-    border-radius: none; 
+  border: 0;
+  box-shadow: none;
+  background-color: #f5f6f7;
+  border-radius: none; 
 }
 
 #custom-search-input button{
-    margin: 2px 0 0 0;
-    background: none;
-    box-shadow: none;
-    border: 0;
-    color: #666666;
-    padding: 0 8px 0 10px;
+  margin: 2px 0 0 0;
+  background: none;
+  box-shadow: none;
+  border: 0;
+  color: #666666;
+  padding: 0 8px 0 10px;
     
 }
 
 #custom-search-input .glyphicon-search{
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .bannerSocial {
@@ -69,7 +68,7 @@ header ul.header-right a,i span {
 }
 
 .bannerTxt {
-	padding-top: 81px;
+	padding-top: 90px;
 }
 
 .bannerTxt h1{
@@ -93,20 +92,19 @@ header ul.header-right a,i span {
 	padding: 12px 20px;
 	line-height: 24px;
 	background: transparent;
-    border-radius: 0;
-    border: 2px solid #53b778;
-    letter-spacing: 1px;
-    color: #fff;
-    font-weight: 600;
-    text-transform: uppercase;
-    transition: 0.9s ease;
+  border-radius: 0;
+  border: 2px solid #53b778;
+  letter-spacing: 1px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.9s ease;
 }
 
 .bannerTxt a:hover{
 	background: #53b778;
 	color: white;
 	transition: 0.4s ease;
-
 }
 
 .main-menu .nav {
@@ -117,16 +115,23 @@ header ul.header-right a,i span {
   background: none;
   box-shadow: none;
   border : none;
-  
- }
-
+}
  
 .navbar nav{
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
   color: #606060;
-  padding: 2% 25% 0 0;
+  padding: 2% 12% 1% 0;
+}
+
+.navbar nav li{
+  margin-bottom: 1px; 
+}
+
+.navbar nav li:hover{
+  border-bottom: 2px solid #53b778;
+  transition: 0.6s ease;
 }
 
 .buttonNav {
@@ -136,11 +141,10 @@ header ul.header-right a,i span {
   float: right;
   background: #53b778;
   font-weight: bold;
-  padding:  12px 22px 12px 22px;
+  padding: 7px 14px 7px 17px;
   margin: 0;
   font-family: "Open Sans",sans-serif;
   font-size: 14px;
-  /*text-transform: uppercase;*/
   display: inline-block;
   text-align: center;
   cursor: pointer;
@@ -153,3 +157,6 @@ header ul.header-right a,i span {
   border : 2px solid #53b778;
   transition: 0.8s ease;
 }
+
+/*=================*/
+
